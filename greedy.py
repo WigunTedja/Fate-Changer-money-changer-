@@ -1,4 +1,4 @@
-# Fungsi denominasi_uang dari kode Anda
+# Fungsi menentukan denominasi_uang
 def denominasi_uang(jumlah_uang):
     denominasi = [100000, 50000, 20000, 10000, 5000]  
     hasil = {}
