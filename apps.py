@@ -3,7 +3,7 @@ import requests
 
 
 
-# Fungsi get_open_exchange_rates dari kode Anda
+# Fungsi ambil API
 def get_open_exchange_rates(api_key):
     base_url = f"https://api.openexchangerates.org/latest.json?app_id={api_key}"
     try:
@@ -17,7 +17,7 @@ def get_open_exchange_rates(api_key):
         st.error(f"Error: {e}")
         return None
 
-# Fungsi untuk menampilkan menu pilihan konversi dengan Streamlit
+# Fungsi menampilkan menu pilihan konversi
 def show_menu(exchange_rates):
     st.sidebar.title("Money Changer App")
     st.sidebar.subheader("Mata Uang yang Tersedia:")
