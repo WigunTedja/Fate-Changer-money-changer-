@@ -13,4 +13,5 @@ def denominasi_uang(jumlah_uang):
 
     hasil["total"] = total_denom
 
+    print("Test 123")
     return hasil
